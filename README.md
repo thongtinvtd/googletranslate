@@ -1,8 +1,8 @@
-# googletranslate
 Installation
 To install, either use things like pip with the package “googletrans” or download the package and put the “googletrans” directory into your python path.
 
 $ pip install googletrans
+
 Basic Usage
 If source language is not given, google translate attempts to detect the source language.
 
@@ -14,6 +14,7 @@ If source language is not given, google translate attempts to detect the source 
 # <Translated src=ko dest=ja text=こんにちは。 pronunciation=Kon'nichiwa.>
 >>> translator.translate('veritas lux mea', src='la')
 # <Translated src=la dest=en text=The truth is my light pronunciation=The truth is my light>
+      
 Customize service URL
 You can use another google translate domain for translation. If multiple URLs are provided it then randomly chooses a domain.
 
